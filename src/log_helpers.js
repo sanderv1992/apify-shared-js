@@ -1,4 +1,4 @@
-import _ from 'underscore';
+import * as _ from './underscore';
 import { truncate } from './utilities.client';
 import { ENV_VARS } from './consts';
 import { LEVELS } from './log_consts';

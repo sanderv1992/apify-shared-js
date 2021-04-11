@@ -1,4 +1,4 @@
-import _ from 'underscore';
+import * as _ from './underscore';
 import { cryptoRandomObjectId, timeoutPromise } from './utilities';
 
 const CHECK_TYPES = {

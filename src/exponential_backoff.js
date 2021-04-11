@@ -1,4 +1,4 @@
-import _ from 'underscore';
+import * as _ from './underscore';
 import log from './log';
 import { delayPromise } from './utilities';
 

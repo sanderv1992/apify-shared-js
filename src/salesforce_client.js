@@ -1,4 +1,4 @@
-import _ from 'underscore';
+import * as _ from './underscore';
 import axios from 'axios';
 import { URLSearchParams } from 'url';
 

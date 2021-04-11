@@ -1,4 +1,4 @@
-import _ from 'underscore';
+import * as _ from './underscore';
 import chalk from 'chalk';
 import Logger from './logger';
 import { LEVEL_TO_STRING, LEVELS, PREFIX_DELIMITER } from './log_consts';

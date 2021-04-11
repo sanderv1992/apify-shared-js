@@ -6,7 +6,7 @@
  *
  */
 
-const _ = require('underscore');
+const _ = require('./underscore');
 const isBuffer = require('is-buffer');
 const { countries } = require('countries-list');
 const consts = require('./consts');
@@ -15,6 +15,7 @@ const { m } = require('./intl');
 const { parseAjvError } = require('./input_schema');
 require('./polyfills');
 
+_
 /**
  * Returns true if object equals null or undefined, otherwise returns false.
  * @param obj

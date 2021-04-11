@@ -1,4 +1,4 @@
-import _ from 'underscore';
+import * as _ from './underscore';
 import schema from './input_schema.json';
 import { m } from './intl';
 

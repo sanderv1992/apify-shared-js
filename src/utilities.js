@@ -7,10 +7,10 @@
  *
  */
 
-const _ = require('underscore');
 const crypto = require('crypto');
 const request = require('request');
 const cherow = require('cherow');
+const _ = require('./underscore');
 const utilsClient = require('./utilities.client');
 const log = require('./log');
 const consts = require('./consts');
